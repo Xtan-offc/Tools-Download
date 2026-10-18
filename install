@@ -1,0 +1,7 @@
+
+pkg update -y && pkg upgrade -y
+pkg install python ffmpeg -y
+pip install -U yt-dlp
+termux-setup-storage
+mkdir -p ~/storage/downloads/SocialDownloader
+cd ~
